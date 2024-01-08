@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrapper {
+            height: 858px;
+            width: 987px;
+            background-color: antiquewhite;
+            margin: 0px auto;
+            padding: 0px auto;
+            border: 1px solid #000;
+        }
+
+        .header {
+            border-bottom: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 160px;
+            width: 100%;
+            background-color: rgb(90, 41, 188);
+        }
+
+        .content {
+            height: 540px;
+            width: 100%;
+            display: flex;
+            flex-basis: 30%;
+            justify-content: space-between;
+            background-color: rgb(242, 246, 244);
+            
+
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 540px;
+            width: 30%;
+            float: left;
+            background-color: rgb(246, 211, 217);
+            border-right: 1px solid #000;
+        }
+
+        .section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 540px;
+            width: 30%;
+            float: left;
+            background-color: rgb(59, 220, 190);
+            border-left: 1px solid #000;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 157px;
+            width: 100%;
+            background-color: rgb(116, 205, 110);
+            border-top: 1px solid #000;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            Header
+        </div>
+        <div class="content">
+            <div class="nav"> Nav</div>
+            <div class="section"> Section </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
